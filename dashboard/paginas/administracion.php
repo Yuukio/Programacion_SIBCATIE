@@ -6,6 +6,9 @@
     include_once '../../plantillas/head-dashboard.php';
     ?>
 
+    <!-- JQuery DataTable Css -->
+    <link href="../plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.css" rel="stylesheet">
+
     <body class="theme-red">
 
         <?php
@@ -24,19 +27,13 @@
         <!-- Centro del Contenido-->
         <section class="content">
             <div class="container-fluid">
-                <div class="block-header">
-                    <h2>
-                        JQUERY DATATABLES
-                        <small>Taken from <a href="https://datatables.net/" target="_blank">datatables.net</a></small>
-                    </h2>
-                </div>
                 <!-- Basic Examples -->
                 <div class="row clearfix">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="card">
                             <div class="header">
                                 <h2>
-                                    BASIC EXAMPLE
+                                    REGISTRO DE ESPECIES
                                 </h2>
                                 <ul class="header-dropdown m-r--5">
                                     <li class="dropdown">
@@ -548,17 +545,17 @@
         ?>
 
         <!-- Jquery DataTable Plugin Js -->
-        <script src="../../plugins/jquery-datatable/jquery.dataTables.js"></script>
-        <script src="../../plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js"></script>
-        <script src="../../plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js"></script>
-        <script src="../../plugins/jquery-datatable/extensions/export/buttons.flash.min.js"></script>
-        <script src="../../plugins/jquery-datatable/extensions/export/jszip.min.js"></script>
-        <script src="../../plugins/jquery-datatable/extensions/export/pdfmake.min.js"></script>
-        <script src="../../plugins/jquery-datatable/extensions/export/vfs_fonts.js"></script>
-        <script src="../../plugins/jquery-datatable/extensions/export/buttons.html5.min.js"></script>
-        <script src="../../plugins/jquery-datatable/extensions/export/buttons.print.min.js"></script>
+        <script src="../plugins/jquery-datatable/jquery.dataTables.js"></script>
+        <script src="../plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js"></script>
+        <script src="../plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js"></script>
+        <script src="../plugins/jquery-datatable/extensions/export/buttons.flash.min.js"></script>
+        <script src="../plugins/jquery-datatable/extensions/export/jszip.min.js"></script>
+        <script src="../plugins/jquery-datatable/extensions/export/pdfmake.min.js"></script>
+        <script src="../plugins/jquery-datatable/extensions/export/vfs_fonts.js"></script>
+        <script src="../plugins/jquery-datatable/extensions/export/buttons.html5.min.js"></script>
+        <script src="../plugins/jquery-datatable/extensions/export/buttons.print.min.js"></script>
         <!-- Custom Js -->
-        <script src="../../js/pages/tables/jquery-datatable.js"></script>
+        <script src="../js/pages/tables/jquery-datatable.js"></script>
 
     </body>
 
