@@ -26,7 +26,57 @@
 
         <!-- Centro del Contenido-->
         <section class="content">
+
+            <!-- Contadores -->
             <div class="container-fluid">
+                <div class="row clearfix">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="info-box hover-zoom-effect">
+                            <div class="icon bg-verde">
+                                <i class="material-icons">speaker_notes</i>
+                            </div>
+                            <div class="content">
+                                <div class="text">ESPECIES IDENTIFICADAS</div>
+                                <div class="number">1500</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="info-box hover-zoom-effect">
+                            <div class="icon bg-verde">
+                                <i class="material-icons">speaker_notes_off</i>
+                            </div>
+                            <div class="content">
+                                <div class="text">ESPECIES NO IDENTIFICADAS</div>
+                                <div class="number">45</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="info-box hover-zoom-effect">
+                            <div class="icon bg-verde">
+                                <i class="material-icons">folder_shared</i>
+                            </div>
+                            <div class="content">
+                                <div class="text">USUARIOS REGISTRADOS</div>
+                                <div class="number">75</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="info-box hover-zoom-effect">
+                            <div class="icon bg-verde">
+                                <i class="material-icons">work</i>
+                            </div>
+                            <div class="content">
+                                <div class="text">CANTIDAD DE ADMINISTRADORES</div>
+                                <div class="number">20</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FINAL - Contadores -->
                 <!-- Basic Examples -->
                 <div class="row clearfix">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

@@ -103,7 +103,7 @@
 
                 <li class="header">CONFIGURACIONES</li>
                 <li>
-                    <a href="http://localhost/PruebaPHP/">
+                    <a href="http://localhost/SIBCATIE/">
                         <i class="material-icons col-light-blue">donut_large</i>
                         <span>Salir</span>
                     </a>

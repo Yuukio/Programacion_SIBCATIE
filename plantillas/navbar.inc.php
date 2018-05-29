@@ -13,7 +13,7 @@ Conexion::cerrar_conexion();
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Sistema de Información Botánica del CATIE</a>
+            <a class="navbar-brand" href="index.php">SIBCATIE</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
