@@ -3,17 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/PruebaPHP/plantillas/head-dashboard.php</file>
-            <file>file:/C:/xampp/htdocs/PruebaPHP/dashboard/plugins/bootstrap/css/bootstrap.css</file>
-            <file>file:/C:/xampp/htdocs/PruebaPHP/dashboard/paginas/bandeja.php</file>
-            <file>file:/C:/xampp/htdocs/PruebaPHP/dashboard/paginas/mapa.php</file>
-            <file>file:/C:/xampp/htdocs/PruebaPHP/dashboard/paginas/usuarios.php</file>
-            <file>file:/C:/xampp/htdocs/PruebaPHP/plantillas/navbar.inc.php</file>
-            <file>file:/C:/xampp/htdocs/PruebaPHP/plantillas/barra-superior.php</file>
-            <file>file:/C:/xampp/htdocs/PruebaPHP/plantillas/menu-lateral.php</file>
-            <file>file:/C:/xampp/htdocs/PruebaPHP/dashboard/paginas/historial.php</file>
-            <file>file:/C:/xampp/htdocs/PruebaPHP/dashboard/css/materialize.css</file>
-            <file>file:/C:/xampp/htdocs/PruebaPHP/dashboard/paginas/administracion.php</file>
+            <file>file:/C:/xampp/htdocs/PruebaPHP/plantillas/dashboard-scripts.php</file>
         </group>
     </open-files>
 </project-private>
