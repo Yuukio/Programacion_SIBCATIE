@@ -36,6 +36,10 @@ body {
     color: #829AD1 !important;
 }
 
+.fondoprueba{
+    background-image: url('../img/Home.jpg'); 
+}
+
 /*
 :link - aspecto de enlace sin pasar el raton por encima ni nada
 :visited - cuando no pasa nada pero ya hemos visitado

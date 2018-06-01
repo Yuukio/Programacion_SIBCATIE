@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -18,6 +17,11 @@
         <link rel="stylesheet" type="text/css" href="nuevo/cubeportfolio.min.css">     
         <link href="nuevo/style.css" rel="stylesheet">
         <link href="css/estilos.css">
+
+        <link href="css/gallery-grid.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
     </head>
 
     <body>
@@ -421,7 +425,7 @@
         </nav>
 
         <!-- ***** Portada ***** -->
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div class="position-relative overflow-hidden p-md-12 text-center bg-light">
             <div class="col-md-5 p-lg-5 mx-auto my-5">
                 <h1 class="display-4 font-weight-normal">SIBCATIE</h1>
                 <p class="lead font-weight-normal">Investiga y aprende sobre botánica visitando nuestro Sistema de Información Botánico del CATIE</p>
@@ -431,6 +435,56 @@
             <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
         </div>
         <!-- ***** FINAL Portada ***** -->
+
+        <div class="container gallery-container">
+
+            <h1 style="text-align: center; color: black"   >GALERÍA</h1>
+
+            <p class="page-description text-center">Ven y disfruta en persona de nuestro jardín botánico del CATIE.</p>
+
+            <div class="tz-gallery">
+
+                <div class="row">
+
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="img/galeria-home/bridge.jpg">
+                            <img src="img/galeria-home/bridge.jpg" alt="Bridge">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="img/galeria-home/park.jpg">
+                            <img src="img/galeria-home/park.jpg" alt="Park">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="img/galeria-home/tunnel.jpg">
+                            <img src="img/galeria-home/tunnel.jpg" alt="Tunnel">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="img/galeria-home/traffic.jpg">
+                            <img src="img/galeria-home/traffic.jpg" alt="Traffic">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="img/galeria-home/coast.jpg">
+                            <img src="img/galeria-home/coast.jpg" alt="Coast">
+                        </a>
+                    </div> 
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="img/galeria-home/rails.jpg">
+                            <img src="img/galeria-home/rails.jpg" alt="Rails">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <script>
+            baguetteBox.run('.tz-gallery');
+        </script>
 
         <div class="container pt90">
 
